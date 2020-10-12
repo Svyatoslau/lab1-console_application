@@ -2,7 +2,7 @@ package bsu.rfe.java.group10.lab1.Yaroshevich.varC2;
 
 public class Apple extends Food {
 
-    private String size;
+    private String size=null;
 
     public Apple(String size){
         super("Яблоко");
