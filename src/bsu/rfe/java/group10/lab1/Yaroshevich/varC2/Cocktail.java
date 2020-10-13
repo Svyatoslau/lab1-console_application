@@ -39,7 +39,7 @@ public class Cocktail extends Food{
 
     @Override
     public String toString(){
-        return super.toString()+" из '"+drink+"' с '"+fruit+"'";
+        return super.toString()+" из '"+drink.toUpperCase()+"' с '"+fruit.toUpperCase()+"'";
     }
 
     @Override

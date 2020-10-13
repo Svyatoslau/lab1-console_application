@@ -41,7 +41,7 @@ public class Apple extends Food {
         int small = 26;
         int stan = 52;
         int big = 108;
-        if (this.size.equals("маленькое")) return small;
+        if (this.size.equals("малое")) return small;
         else if (this.size.equals("стандартное")) return stan;
         else if (this.size.equals("большое")) return big;
 
