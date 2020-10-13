@@ -35,4 +35,17 @@ public class Apple extends Food {
     public void consume() {
         System.out.println(this + " съеденно");
     }
+
+    @Override
+    public int calculateCalories() {
+        int small = 26;
+        int stan = 52;
+        int big = 108;
+        if (this.size.equals("маленькое")) return small;
+        else if (this.size.equals("стандартное")) return stan;
+        else if (this.size.equals("большое")) return big;
+
+        //System.out.println("Неизвестный размер. Калорийность возьмёться стандартной");
+        return stan;
+    }
 }

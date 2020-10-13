@@ -1,6 +1,6 @@
 package bsu.rfe.java.group10.lab1.Yaroshevich.varC2;
 
-public abstract class Food implements Consumable {
+public abstract class Food implements Consumable,Nutritious {
     String name = null;
 
     public Food (String name){
